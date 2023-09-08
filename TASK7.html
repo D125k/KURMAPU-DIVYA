@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content=
+		"width=device-width,initial-scale=1">
+    
+	<style>
+		.vertical-menu {
+			width: 200px;
+		}
+
+		.vertical-menu a {
+			background-color:#ADD8E6 ;
+			color: blue;
+			display: block;
+			padding: 12px;
+			text-decoration: none;
+		}
+
+		
+
+		.vertical-menu a.active {
+			background-color: #FFA500;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+	<style>
+        .vertical-menu a:hover {
+    background-color: #FFA500; /* Change the background color on hover */
+    color: white; /* Change the text color on hover */
+}
+        h1 {
+            color: #000000; 
+      		font-family: "Arial", sans-serif; 
+            font-weight: bold; 
+      		font-size:17px;
+        }
+    </style>
+ 
+	<h1>Vertical Navigation Bar</h1>
+
+	<div class="vertical-menu">
+		<a href="#" class="active">Home</a>
+		<a href="#">Java </a>
+		<a href="#">CSS</a>
+		<a href="#">HTML </a>
+		<a href="#">Bootstrap</a>
+	</div>
+</body>
+</html>
+
+<br>
+<html>
+<head>
+  <style>
+        
+        h1 {
+            color: #000000; 
+      		font-family: "Arial", sans-serif; 
+            font-weight: bold; 
+      		font-size:17px;
+        }
+    </style>
+ 
+	<h1>Horizontal Navigation Bar</h1>
+    <style>
+       
+        nav {
+            background-color: #eee; 
+        }
+
+        ul {
+            list-style-type: none; 
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            display: inline; 
+            margin-right: 20px; 
+            padding-right: 0px;
+      		font-size:24px;
+        }
+        li a:hover {
+    background-color: grey; /* Change the background color on hover */
+    color: white; /* Change the text color on hover */
+}
+
+
+        li::after {
+            content: '|'; 
+            margin-left: 8px; 
+            color: #3498db;
+        }
+       
+        .selected {
+            background-color: #888; 
+        }
+
+       
+        li:not(.selected) a {
+            text-decoration: none; 
+            color: #3498db; 
+        }
+
+        .selected a {
+            text-decoration: none; 
+            color: #fff; 
+            background-color: grey;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="selected"><a href="#"><centre>Home<centre></a></li>
+          <li><a href="#"><centre>Java</centre></a></li>
+              <li><a href="#"><centre>HTML</centre></a></li>
+              <li><a href="#"><centre>CSS</centre></a></li>
+            
+        </ul>
+    </nav>
+</body>
+</html>
